@@ -35,10 +35,11 @@ header{
 
 .header-container p{
     padding-bottom: 40px;
+    line-height: 25px;
 }
 
-.header-container a{
-    padding: 10px 20px;
+.header-container a, .about-button a{
+    padding: 10px 30px;
     background-color: #000;
     border: 2px solid #fff;
     border-radius: 25px;
@@ -49,5 +50,45 @@ header{
 .header-container a:hover{
     background-color: rgba(0, 0, 0, 0.527);
     transition: ease-in-out all 0.5s;
+    
+}
+
+/* about section */
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 5% 10%;
+}
+
+.about-heading-section{
+    display: flex;
+    align-items: center;
+}
+
+.about h3{
+    font-size: 38px;
+    padding: 10px 0 10px 10px;
+}
+
+.about-description p{
+    padding: 20px 20px 40px 0;
+    line-height: 25px;
+}
+
+.about-left{
+    width: 50%;
+}
+
+.about-right{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.about-button a{
+    background-color: #f00;
+    border: 2px solid red;
     
 }
