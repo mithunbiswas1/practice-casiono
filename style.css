@@ -1,0 +1,53 @@
+/* default */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header section */
+header{
+    background:linear-gradient(rgba(255, 0, 0, 0.233), rgba(47, 0, 216, 0.308)), url(images/banner-bg.png);
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.header-container{
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 0 18%;
+}
+
+.header-container h3{
+    padding: 10px 0;
+}
+
+.header-container h1{
+    font-size: 75px;
+    padding-bottom: 20px;
+}
+
+.header-container p{
+    padding-bottom: 40px;
+}
+
+.header-container a{
+    padding: 10px 20px;
+    background-color: #000;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header-container a:hover{
+    background-color: rgba(0, 0, 0, 0.527);
+    transition: ease-in-out all 0.5s;
+    
+}
